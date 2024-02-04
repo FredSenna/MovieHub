@@ -1,0 +1,77 @@
+
+.meus-filmes{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meus-filmes h1{
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 14px;
+}
+
+.meus-filmes span{
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+}
+
+.meus-filmes ul{
+  font-family: Montserrat, sans-serif;
+  width: 720px;
+}
+
+.meus-filmes ul li{
+  font-family: Montserrat, sans-serif;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.meus-filmes div{
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meus-filmes div button{
+  font-family: Montserrat, sans-serif;
+  margin-right: 12px;
+  margin-top: 14px;
+  margin-left: 0;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.meus-filmes div a {
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+  margin-right: 12px;
+  margin-top: 14px;
+  margin-left: 0;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.meus-filmes button:hover{
+  background-color: #5E17EB;
+  color: #F0E68C;
+}
+
+.meus-filmes div a:hover{
+  color: #F0E68C;
+  
+}
